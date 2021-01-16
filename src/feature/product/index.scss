@@ -1,0 +1,26 @@
+.pro-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1% 3%;
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.img-nlp {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  label {
+    font-size: 1.3rem;
+    color: black !important;
+  }
+  img {
+    width: 40%;
+  }
+}

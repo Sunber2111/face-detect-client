@@ -1,0 +1,45 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px;
+  margin-bottom: 3px;
+  &-content {
+    .active {
+      background-color: #877df2 !important;
+      border-radius: .5rem;
+      i::before {
+        color: white !important;
+      }
+      p {
+        color: white !important;
+        font-weight: 700;
+      }
+    }
+  }
+  &-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    .isDrop {
+      margin-left: auto;
+      svg {
+        font-size: 1.2rem !important;
+      }
+    }
+  }
+  &-select {
+    border-radius: 6px;
+    background-color: #f6f6f6;
+  }
+  .title-link {
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif !important;
+    color: #626262;
+  }
+  svg {
+    font-size: 1.8rem;
+    color: #626262;
+  }
+}

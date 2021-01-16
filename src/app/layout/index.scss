@@ -1,0 +1,188 @@
+html {
+  height: 100vh;
+}
+body {
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+#app {
+  height: 100%;
+  .main {
+    margin: 0;
+    padding: 0;
+    &-content {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      background-color: #f8f8f8 !important;
+      .app-content {
+        margin-top: 70px;
+        width: 100% !important;
+      }
+    }
+    .row {
+      margin: 0;
+      padding: 0;
+      .column {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Toastify__toast-body {
+  font-size: 0.9rem;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.f-row {
+  flex-direction: row !important;
+}
+
+.f-col {
+  flex-direction: column !important;
+}
+
+.ml-1 {
+  margin-left: 10px !important;
+}
+
+.mt-1 {
+  margin-top: 10px !important;
+}
+
+.mt-2 {
+  margin-top: 20px !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+.MuiPaper-root {
+  border: 0.04px solid #75757542 !important;
+  box-shadow: 8px 8px 8px #807f7f2d !important;
+}
+
+.bg-white {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.p-1 {
+  padding: 10px !important;
+}
+
+.pl-1 {
+  padding-left: 10px !important;
+}
+
+.ti-def {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.not-found {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-number {
+  padding: 10px !important;
+  border-radius: 0.3rem;
+  width: 100%;
+  border: 0.1px solid #a1a0a056 !important;
+}
+.mr-auto {
+  margin-right: auto !important;
+}
+.p-0 {
+  padding: 0px !important;
+}
+.p-1 {
+  padding: 5px !important;
+}
+svg {
+  cursor: pointer;
+}
+button {
+  padding: 7px !important ;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.btn-gr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  svg {
+    cursor: pointer;
+  }
+}
+.mr-1 {
+  margin-right: 5px !important;
+}
+
+.jus-cen {
+  justify-content: center !important;
+}
+
+.ali-cen {
+  align-items: center;
+}
+
+label {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  color: #838383f8 !important;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+input[type="file"] {
+  display: none !important;
+}
+
+.wrap-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .img-loading {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.mb-1 {
+  margin-bottom: 5px !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.apexcharts-title-text {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+th {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.px-1{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}

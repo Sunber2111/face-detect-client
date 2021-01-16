@@ -1,0 +1,49 @@
+.form-login {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .login-btn {
+    background-color: #166FE5 !important;
+  }
+  .btn-log-gg {
+    display: flex;
+    button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .title-form {
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 20%;
+
+  }
+  .title-input {
+    color: #4a5568 !important;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .fg-p {
+    display: flex;
+    p {
+      margin-left: auto;
+      color: #4a5568 !important;
+      font-weight: 500;
+      line-height: 1.5;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+  }
+}

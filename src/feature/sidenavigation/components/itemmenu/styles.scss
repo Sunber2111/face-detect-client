@@ -1,0 +1,77 @@
+.item-menu {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  padding: 12px 20px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  &:hover {
+    color: black;
+  }
+  p {
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif !important;
+    color: #626262;
+  }
+  i::before {
+    font-size: 1.6rem;
+    color: #565656;
+  }
+  svg{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.i1 {
+  div {
+    i::before {
+      color: #1877e7 !important ;
+    }
+  }
+}
+
+.i2 {
+  div {
+    i::before {
+      color: #52cbba !important ;
+    }
+  }
+}
+
+.i3 {
+  div {
+    i::before {
+      color: #e84a88 !important ;
+    }
+  }
+}
+
+.i4 {
+  div {
+    i::before {
+      color: #217cf2 !important ;
+    }
+  }
+}
+
+.i5 {
+  div {
+    i::before {
+      color: #f09819 !important ;
+    }
+  }
+}
+
+.i6 {
+  div {
+    i::before {
+      color: #f00000 !important ;
+    }
+  }
+}
+
+

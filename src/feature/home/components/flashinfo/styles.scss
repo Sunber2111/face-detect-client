@@ -1,0 +1,52 @@
+.list-flash-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 0px 3%;
+
+  .fc {
+    width: 26%;
+    box-shadow: 0px 0px 13px 1px #cac8c8b6;
+    background-color: white;
+    margin-right: 1.7%;
+    border-radius: 0.5rem;
+    padding: 0px !important;
+    .number {
+      
+      h2{
+        font-weight: 700 !important;
+        font-size: 2rem;
+      }
+      font-family: "Montserrat", sans-serif !important;
+      margin-left: 8%;
+      margin-top: 5%;
+    }
+    .title {
+      font-size: 1rem;
+      margin-top: 2px;
+      font-family: "Montserrat", sans-serif !important;
+      margin-left: 8%;
+      color: #626262 !important;
+    }
+    .icon {
+      background-color: #eae8fd;
+      width: 50px;
+      margin-left: 20px;
+      margin-top: 20px;
+      border-radius: 5rem;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        font-size: 1.8rem;
+      }
+    }
+    svg {
+      line {
+        display: none !important;
+      }
+    }
+  }
+}
